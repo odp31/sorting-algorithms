@@ -3,7 +3,7 @@
 // 1. building a max heap (largest element is at the root)
 // 2. heapify; repeatedly remove max element from heap and replace it with the last element
 // then heapify the reduced heap
-
+// time complexity: O(n log n) 
 public class HeapSort {
   public void sort(int[] arr) {
     int n = arr.length;
